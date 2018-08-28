@@ -13,6 +13,12 @@
 		C15A3ACF2134E85500FC6012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15A3ACE2134E85500FC6012 /* Assets.xcassets */; };
 		C15A3AD22134E85500FC6012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15A3AD02134E85500FC6012 /* LaunchScreen.storyboard */; };
 		C15A3AD52134E85500FC6012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15A3AD42134E85500FC6012 /* main.m */; };
+		C15A3ADD2134E86E00FC6012 /* JFInfiniteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C15A3ADC2134E86E00FC6012 /* JFInfiniteBanner.m */; };
+		C15A3ADF2134FA5800FC6012 /* smile1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C15A3ADE2134FA5800FC6012 /* smile1.jpg */; };
+		C15A3AE12134FA6A00FC6012 /* smile2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C15A3AE02134FA6A00FC6012 /* smile2.jpg */; };
+		C15A3AE32134FA7E00FC6012 /* smile3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C15A3AE22134FA7E00FC6012 /* smile3.jpg */; };
+		C15A3AE52134FA8D00FC6012 /* smile4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C15A3AE42134FA8D00FC6012 /* smile4.jpg */; };
+		C15A3AE72134FAA400FC6012 /* smile5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C15A3AE62134FAA300FC6012 /* smile5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,13 @@
 		C15A3AD12134E85500FC6012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C15A3AD32134E85500FC6012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C15A3AD42134E85500FC6012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C15A3ADB2134E86E00FC6012 /* JFInfiniteBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFInfiniteBanner.h; sourceTree = "<group>"; };
+		C15A3ADC2134E86E00FC6012 /* JFInfiniteBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFInfiniteBanner.m; sourceTree = "<group>"; };
+		C15A3ADE2134FA5800FC6012 /* smile1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile1.jpg; sourceTree = "<group>"; };
+		C15A3AE02134FA6A00FC6012 /* smile2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile2.jpg; sourceTree = "<group>"; };
+		C15A3AE22134FA7E00FC6012 /* smile3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile3.jpg; sourceTree = "<group>"; };
+		C15A3AE42134FA8D00FC6012 /* smile4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile4.jpg; sourceTree = "<group>"; };
+		C15A3AE62134FAA300FC6012 /* smile5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +75,13 @@
 				C15A3AC62134E85400FC6012 /* AppDelegate.m */,
 				C15A3AC82134E85400FC6012 /* ViewController.h */,
 				C15A3AC92134E85400FC6012 /* ViewController.m */,
+				C15A3ADB2134E86E00FC6012 /* JFInfiniteBanner.h */,
+				C15A3ADC2134E86E00FC6012 /* JFInfiniteBanner.m */,
+				C15A3ADE2134FA5800FC6012 /* smile1.jpg */,
+				C15A3AE02134FA6A00FC6012 /* smile2.jpg */,
+				C15A3AE22134FA7E00FC6012 /* smile3.jpg */,
+				C15A3AE42134FA8D00FC6012 /* smile4.jpg */,
+				C15A3AE62134FAA300FC6012 /* smile5.jpg */,
 				C15A3ACB2134E85400FC6012 /* Main.storyboard */,
 				C15A3ACE2134E85500FC6012 /* Assets.xcassets */,
 				C15A3AD02134E85500FC6012 /* LaunchScreen.storyboard */,
@@ -128,8 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15A3AE72134FAA400FC6012 /* smile5.jpg in Resources */,
+				C15A3ADF2134FA5800FC6012 /* smile1.jpg in Resources */,
 				C15A3AD22134E85500FC6012 /* LaunchScreen.storyboard in Resources */,
 				C15A3ACF2134E85500FC6012 /* Assets.xcassets in Resources */,
+				C15A3AE52134FA8D00FC6012 /* smile4.jpg in Resources */,
+				C15A3AE12134FA6A00FC6012 /* smile2.jpg in Resources */,
+				C15A3AE32134FA7E00FC6012 /* smile3.jpg in Resources */,
 				C15A3ACD2134E85400FC6012 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15A3ACA2134E85400FC6012 /* ViewController.m in Sources */,
+				C15A3ADD2134E86E00FC6012 /* JFInfiniteBanner.m in Sources */,
 				C15A3AD52134E85500FC6012 /* main.m in Sources */,
 				C15A3AC72134E85400FC6012 /* AppDelegate.m in Sources */,
 			);

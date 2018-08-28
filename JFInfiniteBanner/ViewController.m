@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "JFInfiniteBanner.h"
+@interface ViewController ()<JFInfiniteBannerDelegate>
 
 @end
 
@@ -16,14 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *imageArray = @[ [UIImage imageNamed:@"smile1.jpg"],
+                             [UIImage imageNamed:@"smile2.jpg"],
+                             [UIImage imageNamed:@"smile3.jpg"],
+                             [UIImage imageNamed:@"smile4.jpg"],
+                             [UIImage imageNamed:@"smile5.jpg"],
+                           ];
+    JFInfiniteBanner *banner = [[JFInfiniteBanner alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 200)];
+    banner.delegate = self;
+    [self.view addSubview:banner];
+    banner.imageGroup = imageArray;
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)JFInfiniteBannerDidSelectedAtIndex:(NSInteger)index{
+    NSLog(@"%ld",index);
 }
-
 
 @end
